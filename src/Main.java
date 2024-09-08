@@ -5,10 +5,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o primeiro número: ");
         double num1 = scanner.nextDouble();
-        System.out.print("Digite o segundo número: ");
-        double num2 = scanner.nextDouble();
         System.out.print("Digite a operação (+, -, *, /): ");
         char operator = scanner.next().charAt(0);
+        System.out.print("Digite o segundo número: ");
+        double num2 = scanner.nextDouble();
         scanner.close();
         double result;
 
