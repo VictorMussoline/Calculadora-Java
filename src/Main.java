@@ -12,7 +12,7 @@ public class Main {
         scanner.close();
         double result;
 
-        switch(operator) {
+        switch (operator) {
             case '+':
                 result = num1 + num2;
                 break;
@@ -30,6 +30,6 @@ public class Main {
                 return;
         }
 
-        System.out.println(nums1+" "+operator+" "+num2+": "+result);
+        System.out.println(num1 + " " + operator + " " + num2 + ": " + result);
     }
 }
